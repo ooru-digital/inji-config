@@ -3,7 +3,7 @@
     {
       "issuer_id": "Mock",
       "credential_issuer": "Mock",
-      "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
+      "credential_issuer_host": "https://${mosip.injicertify.host}",
       "display": [
         {
           "name": "Mock Identity",
@@ -22,8 +22,8 @@
       "wellknown_endpoint": "https://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
-      "authorization_audience": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
-      "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
+      "authorization_audience": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     }
