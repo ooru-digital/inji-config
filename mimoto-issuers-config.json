@@ -8,7 +8,7 @@
         {
           "name": "Digital Identity",
           "logo": {
-            "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/public_logos/National_ID_logo.jpeg",
+            "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/public_logos/Digital_id_logo.webp",
             "alt_text": "mosip-logo"
           },
           "title": "Digital Identity",
@@ -21,7 +21,7 @@
       "client_alias": "mpartner-default-mimotooidc",
       "wellknown_endpoint": "https://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Digital",
       "authorization_audience": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
       "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
