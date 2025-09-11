@@ -1,18 +1,18 @@
 {
   "issuers": [
     {
-      "issuer_id": "Mock",
-      "credential_issuer": "Mock",
+      "issuer_id": "Digital",
+      "credential_issuer": "Digital",
       "credential_issuer_host": "https://${mosip.injicertify.host}",
       "display": [
         {
-          "name": "Mock Identity",
+          "name": "Digital Identity",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/public_logos/National_ID_logo.jpeg",
             "alt_text": "mosip-logo"
           },
-          "title": "Mock Identity",
-          "description": "Download Mock Identity Credential",
+          "title": "Digital Identity",
+          "description": "Download Digital Identity Credential",
           "language": "en"
         }
       ],
