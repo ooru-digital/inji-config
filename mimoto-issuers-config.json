@@ -26,6 +26,33 @@
       "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
+    },
+    {
+      "issuer_id": "Digital Liquio",
+      "credential_issuer": "Digital Liquio",
+      "credential_issuer_host": "https://${mosip.injicertify.host}",
+      "display": [
+        {
+          "name": "Digital Identity Liquio",
+          "logo": {
+            "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/public_logos/Digital_id_logo.webp",
+            "alt_text": "mosip-logo"
+          },
+          "title": "Digital Identity",
+          "description": "Download Digital Identity Credential",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "Liquio",
+      "client_alias": "mpartner-default-mimotooidc1",
+      "wellknown_endpoint": "https://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Digital",
+      "authorization_audience": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
     }
   ]
 }
