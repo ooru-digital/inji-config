@@ -48,7 +48,7 @@
       "client_alias": "mpartner-default-mimotooidc1",
       "wellknown_endpoint": "https://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Digital",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Digital Liquio",
       "authorization_audience": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
       "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
