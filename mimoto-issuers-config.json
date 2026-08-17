@@ -55,27 +55,27 @@
       "enabled": "true"
     },
     {
-      "issuer_id": "Saotome",
-      "credential_issuer": "Saotome",
+      "issuer_id": "LiquioPrivate",
+      "credential_issuer": "LiquioPrivate",
       "credential_issuer_host": "https://${mosip.injicertify.host}",
       "display": [
         {
-          "name": "Saotome",
+          "name": "LiquioPrivate",
           "logo": {
             "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/public_logos/Digital_id_logo.webp",
-            "alt_text": "mosip-logo"
+            "alt_text": "LiquioPrivate-logo"
           },
-          "title": "Saotome Digital Identity",
+          "title": "LiquioPrivate Digital Identity",
           "description": "Download Digital Identity Credential",
           "language": "en"
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "saoTome",
+      "client_id": "LiquioPrivate",
       "client_alias": "mpartner-default-mimotooidc2",
       "wellknown_endpoint": "https://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Saotome",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/LiquioPrivate",
       "authorization_audience": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
       "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
